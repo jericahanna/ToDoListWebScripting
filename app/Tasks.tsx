@@ -1,3 +1,4 @@
+// Task React page
 interface TaskProps {
     task: { id: number; text: string; rank: number };
     onRemove: (id: number) => void;
